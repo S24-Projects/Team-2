@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Robo-Advisor</h1>
+
+    <style>
+        h1 {text-align: center;}
+        div {text-align: center;}
+    </style>
+
+    <div class="Form">
+        <p>Enter any Stock Below!</p>
+    </div>
+
+    <div class="box">
+        <form id="stockForm">
+            <input type="text" id="Stock" name="Stock" placeholder="Stock Name"><br>
+            <input type="submit" id="submitButton">
+            <div id="errorMessage">Please enter a stock name!</div>
+        </form>
+    </div>
+
+    <div class="output">
+        <div id="stockOutput"></div>
+        <button id="clearButton">Clear Stocks</button>
+    <script src="script.js"></script>
+    </div>
+
+    <div id="errorMessage" style="color: red; display: none; text-align: center;">Please enter a stock name.</div>
+
+</body>
+</html>
