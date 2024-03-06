@@ -59,3 +59,28 @@ capacityQuestionnaire.questions.append(question4)
 capacityQuestionnaire.questions.append(question5)
 capacityQuestionnaire.questions.append(question6)
 capacityQuestionnaire.questions.append(question7)
+
+print("Risk Tolerance:")
+toleranceQuestionnaire.answerQuestionnaire()
+toleranceQuestionnaire.calculateScore()
+
+print("Risk Capacity:")
+capacityQuestionnaire.answerQuestionnaire()
+capacityQuestionnaire.calculateScore()
+
+
+"""
+print("Risk Tolerance:")
+for question in toleranceQuestionnaire.questions:
+    print(question.questionText)
+    for answer in question.answers:
+        print("- "+answer.answerText)
+    print("\n")
+
+print("Risk Capacity:")
+for question in capacityQuestionnaire.questions:
+    print(question.questionText)
+    for answer in question.answers:
+        print("- "+answer.answerText)
+    print("\n")
+"""
