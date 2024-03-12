@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #ECF2F1;
+}
+
+.Form label{
+  text-align: left;
+  display: block;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-family: 'Times New Roman', Times, serif;
+  color: #00827f;
+  font-size: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
